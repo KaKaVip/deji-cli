@@ -1,0 +1,12 @@
+{
+  "name": "watermark",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.6.1"
+  },
+  "bin": {
+    "deji": "./cli.js"
+  }
+}
