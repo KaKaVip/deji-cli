@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const maxWidthHeight = 1024;
 const repeatSpacingLogo = 170; // px
-const opacityLogo = 0.15;
+const opacityLogo = 0.19;
 
 const watermart = async imageFile => {
   // Check File
@@ -62,7 +62,7 @@ const watermart = async imageFile => {
     // );
   }
 
-  const logoSize = (imageWidth / repeatSpacingLogo) * 6;
+  const logoSize = (imageWidth / repeatSpacingLogo) * 12;
 
   logo.resize(logoSize, Jimp.AUTO);
 
