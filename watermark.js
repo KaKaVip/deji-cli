@@ -2,8 +2,8 @@ const Jimp = require("jimp");
 const fs = require("fs");
 const path = require("path");
 const maxWidthHeight = 1024;
-const repeatSpacingLogo = 100; // px
-const opacityLogo = 0.1;
+const repeatSpacingLogo = 170; // px
+const opacityLogo = 0.15;
 
 const watermart = async imageFile => {
   // Check File
